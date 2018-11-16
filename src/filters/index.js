@@ -16,7 +16,7 @@ export function timeAgo(time) {
     return pluralize(~~(between / 86400), ' day')
   }
 }
-
+ 
 /* 数字 格式化*/
 export function numberFormatter(num, digits) {
   const si = [
